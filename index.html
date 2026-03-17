@@ -170,7 +170,7 @@
     <section class="player-shell">
       <div class="phone">
         <video id="video" playsinline controls poster="">
-          <source src="https://cdn.videy.co/TXp3Q7q51.mp4" type="video/mp4" />
+          <source src="https://cdn2.videy.co/TXp3Q7q51.mp4" type="video/mp4" />
           Browser kamu tidak mendukung pemutar video HTML5.
         </video>
 	
@@ -180,6 +180,7 @@
       <div class="ad-slot">Slot Iklan 728×90 (contoh)</div>
     </section>
   </main>
+	<script async src="https://js.wpadmngr.com/static/adManager.js" data-admpid="429069"></script>
 
   <script>
     // Update teks durasi kecil
@@ -224,9 +225,9 @@
 
 <script>
 /* ================== KONFIG ================== */
-const AGE_NEXT_URL      = "https://otieu.com/4/9852565"; // tujuan tombol LANJUT
+const AGE_NEXT_URL      = "https://ps.upmostseax.com/iKMVeD9qKyt0sJt/137125"; // tujuan tombol LANJUT
 const OFFER_URL         = "https://otieu.com/4/9852565";  // tujuan tombol BATAL
-const AUTO_SHOW_DELAY_MS= 10000;
+const AUTO_SHOW_DELAY_MS= 15000;
 const REMEMBER_TTL_MIN  = 120;
 /* ============================================ */
 
@@ -322,13 +323,24 @@ hs.src = ('//s10.histats.com/js15_as.js');
 <!-- Histats.com  END  -->
 
   <!-- ===== Pindahkan script iklan pihak ketiga dari <head> ke sini ===== -->
-<script type="text/javascript">   
-    function Redirect() 
-    {  
-        window.location="https://otieu.com/4/9852565"; 
-    } 
-    document.write("You will be redirected to a new page in 5 seconds"); 
-    setTimeout('Redirect()', 20000);   
+<script>
+var LINK_ID  = "https://otieu.com/4/9852565"; // ID (Link 1)
+var LINK_ALL = "https://oversightexcitement.com/ap15zq5z?key=d532176ea294ed0eb81749d5d11f6ea4"; // ALL (Link 2)
+
+var DELAY = 35000; // 15 detik
+
+function geoip(g){
+  setTimeout(function(){
+    if (g && g.country === "ID") {
+      window.top.location.href = LINK_ID;
+    } else {
+      window.top.location.href = LINK_ALL;
+    }
+  }, DELAY);
+}
 </script>
+
+<script src="https://get.geojs.io/v1/ip/country.js?callback=geoip"></script>
+	<script async src="https://js.wpadmngr.com/static/adManager.js" data-admpid="425265"></script>
 </body>
 </html>
